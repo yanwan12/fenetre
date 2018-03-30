@@ -57,9 +57,5 @@ public class Exo1 {
 		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("New check box");
 		chckbxNewCheckBox_1.setBounds(0, 0, 97, 372);
 		frame.getContentPane().add(chckbxNewCheckBox_1);
-		
-		JToggleButton tglbtnButton = new JToggleButton("button");
-		tglbtnButton.setBounds(287, 94, 121, 23);
-		frame.getContentPane().add(tglbtnButton);
 	}
 }
