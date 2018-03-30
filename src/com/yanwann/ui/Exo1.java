@@ -56,10 +56,5 @@ public class Exo1 {
 		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("New check box");
 		chckbxNewCheckBox_1.setBounds(0, 0, 97, 372);
 		frame.getContentPane().add(chckbxNewCheckBox_1);
-		
-		JTextPane txtpnYooo = new JTextPane();
-		txtpnYooo.setText("yooo");
-		txtpnYooo.setBounds(345, 81, 59, 29);
-		frame.getContentPane().add(txtpnYooo);
 	}
 }
