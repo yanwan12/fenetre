@@ -51,11 +51,15 @@ public class Exo1 {
 		frame.getContentPane().add(chckbxNewCheckBox);
 		
 		JButton btnWesh = new JButton("Wesh");
-		btnWesh.setBounds(461, 0, 59, 372);
+		btnWesh.setBounds(436, 17, 84, 372);
 		frame.getContentPane().add(btnWesh);
 		
 		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("New check box");
 		chckbxNewCheckBox_1.setBounds(0, 0, 97, 372);
 		frame.getContentPane().add(chckbxNewCheckBox_1);
+		
+		JButton btnAlors = new JButton("ALORS!!");
+		btnAlors.setBounds(337, 192, 89, 23);
+		frame.getContentPane().add(btnAlors);
 	}
 }
