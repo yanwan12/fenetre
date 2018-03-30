@@ -48,6 +48,9 @@ public class Exo1 {
 		
 		JButton btnWesh = new JButton("Wesh");
 		frame.getContentPane().add(btnWesh, BorderLayout.EAST);
+		
+		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_1, BorderLayout.WEST);
 	}
 
 }
