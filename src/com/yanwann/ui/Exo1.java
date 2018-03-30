@@ -7,6 +7,7 @@ import javax.swing.JCheckBox;
 import java.awt.BorderLayout;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import javax.swing.JTextPane;
 
 public class Exo1 {
 
@@ -42,15 +43,23 @@ public class Exo1 {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 536, 434);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
 		
 		JCheckBox chckbxNewCheckBox = new JCheckBox("New check box");
-		frame.getContentPane().add(chckbxNewCheckBox, BorderLayout.SOUTH);
+		chckbxNewCheckBox.setBounds(0, 372, 520, 23);
+		frame.getContentPane().add(chckbxNewCheckBox);
 		
 		JButton btnWesh = new JButton("Wesh");
-		frame.getContentPane().add(btnWesh, BorderLayout.EAST);
+		btnWesh.setBounds(461, 0, 59, 372);
+		frame.getContentPane().add(btnWesh);
 		
 		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("New check box");
-		frame.getContentPane().add(chckbxNewCheckBox_1, BorderLayout.WEST);
+		chckbxNewCheckBox_1.setBounds(0, 0, 97, 372);
+		frame.getContentPane().add(chckbxNewCheckBox_1);
+		
+		JTextPane txtpnYooo = new JTextPane();
+		txtpnYooo.setText("yooo");
+		txtpnYooo.setBounds(345, 81, 59, 29);
+		frame.getContentPane().add(txtpnYooo);
 	}
-
 }
